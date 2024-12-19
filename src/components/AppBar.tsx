@@ -5,7 +5,7 @@ import { auth, signOut } from "../../auth";
 const AppBar = async () => {
   const session = await auth();
   return (
-    <div className="flex justify-between w-full h-14 lg:h-16 items-center border border-b-green-400 bg-green-100 px-6 ">
+    <div className="flex justify-between w-full h-14 lg:h-16 items-center border border-b-green-400 bg-green-200 px-6 ">
       {session && session?.user ? (
         <h2>Welcome {session?.user?.name}</h2>
       ) : (
