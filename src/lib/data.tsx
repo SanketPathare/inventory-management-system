@@ -1,4 +1,4 @@
-import { LayoutDashboard, User } from "lucide-react";
+import { FolderUp, LayoutDashboard, User } from "lucide-react";
 
 export const sidebar = [
   { title: "Inventory", link: "/dashboard", icon: <LayoutDashboard /> },

@@ -21,7 +21,7 @@ const DashboardLayout = async ({ children }: { children: ReactNode }) => {
 
   return (
     <div className="grid min-h-screen w-full lg:grid-cols-[0.25fr_1fr]">
-      <div className="hidden lg:block border-r bg-gray-100/40 ">
+      <div className="border-r bg-gray-100/40 ">
         <Siderbar />
       </div>
       <div className="flex flex-col">{children}</div>

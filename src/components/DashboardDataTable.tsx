@@ -192,7 +192,7 @@ const DashboardDataTable = ({ data }: any) => {
     <div>
       <div className="flex justify-between w-full h-14 lg:h-16 items-center gap-4 border-b bg-gray-100/40 px-6">
         <div className="flex items-center gap-3 w-full">
-          {/* <div className="relative">
+           <div className="relative m-10">
             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-gray-400" />
             <Input
               placeholder="Search name..."
@@ -204,8 +204,8 @@ const DashboardDataTable = ({ data }: any) => {
               }
               className="pl-8 max-w-sm outline-none focus:outline-none"
             />
-          </div> */}
-          {/* <div>
+          </div> 
+           <div className="">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="outline" className="ml-auto">
@@ -232,12 +232,15 @@ const DashboardDataTable = ({ data }: any) => {
                   })}
               </DropdownMenuContent>
             </DropdownMenu>
-          </div> */}
+          </div> 
         </div>
         <Button onClick={() => signOut()} type="submit">
           Sign Out
         </Button>
       </div>
+
+     {/* Add inventory */}
+
       <div className="p-6">
         <div className="flex item justify-between pt-3 pb-6">
           <h1 className="text-3xl font-bold tracking-tight">

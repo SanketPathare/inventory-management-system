@@ -19,8 +19,8 @@ const Login = () => {
     setLoading(false);
   };
   return (
-    <div className="grid place-content-center min-h-screen bg-gray-100">
-      <div className="flex flex-col justify-center gap-5 items-center py-10 w-[450px] shadow-lg rounded-lg bg-white">
+    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
+      <div className="w-full max-w-sm p-6 bg-white rounded-lg shadow-md">
         <h1 className="text-center font-bold text-4xl">Login</h1>
         <form action={handleSubmit} className="w-full px-5">
           <FormInput
@@ -43,7 +43,7 @@ const Login = () => {
             {loading ? "loading..." : "Login"}
           </Button>
         </form>
-        <div className="flex gap-2 ">
+        <div className="flex justify-center gap-2 mt-3">
           <h1 className="">
             Don{"'"}t have and account?
           </h1>
@@ -51,7 +51,7 @@ const Login = () => {
             href="/signup"
             className="text-center cursor-pointer "
           >
-            <span className="text-green-500 font-bold">
+            <span className="text-green-500 font-bold ">
               Sign Up
             </span>
           </Link>

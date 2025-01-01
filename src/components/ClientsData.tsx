@@ -134,7 +134,7 @@ const ClientInventory = ({ data }: any) => {
     <div className="w-full">
       <div className="flex justify-between w-full h-14 lg:h-16 items-center gap-4 border-b bg-green-100/40 px-6">
         <div className="flex items-center gap-3 w-full">
-          {/* <div className="relative">
+           <div className="relative m-20">
             <Search className="absolute left-2.5 top-2.5 h-4 w-4 text-gray-400" />
             <Input
               placeholder="Search name..."
@@ -146,9 +146,9 @@ const ClientInventory = ({ data }: any) => {
               }
               className="pl-8 max-w-sm outline-none focus:outline-none"
             />
-          </div> */}
+          </div> 
           <div>
-            {/* <DropdownMenu>
+             <DropdownMenu>
               <DropdownMenuTrigger asChild>
                 <Button variant="outline" className="ml-auto">
                   Columns <ChevronDown className="ml-2 h-4 w-4" />
@@ -173,7 +173,7 @@ const ClientInventory = ({ data }: any) => {
                     );
                   })}
               </DropdownMenuContent>
-            </DropdownMenu> */}
+            </DropdownMenu> 
           </div>
         </div>
         <Button
